@@ -6,17 +6,21 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-<h1>Learning Management System</h1>
-<form action="./login" method="post">
-   UserName<input type="text" name="username"><br>
-   Password<input type="text" name="password"><br>
-   <input type="submit" value="Admin Login"><br>
-   <a href="register.jsp">Register</a>
-   
-</form>
+<body bgcolor="LightBlue">
+<h1>                  FLY AWAY                </h1>
+<h2> Search Flights</h2>
+<form action="./searchflights" method="post">
+<table>
+   <tr>source<input type="text" name="source"></tr>
+   <tr>destination<input type="text" name="destination"><br></tr>
+  <tr> Date<input type="text" name="Date"></tr>
+    <tr>Airlines<input type="text" name="Airlines"></tr>
+    </table>
+   <br>
+      <a href="./search">Search Flights</a><br>
+      <a href="./Adminlogin.jsp">Admin Login</a>
+     </form>
 
-<p style="color:red;">${requestScope.msg}</p>
-
+   <p style="color:red;">${requestScope.msg}</p>
 </body>
 </html>
