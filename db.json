@@ -1,0 +1,30 @@
+{
+  "user": [
+    {
+      "id": "Abhi",
+      "password": "Hello123"
+    },
+    {
+      "id": "123",
+      "password": "vgh"
+    },
+    {
+      "id": "Arun",
+      "password": "123"
+    },
+    {
+      "id": "nbbhgth",
+      "password": "vghvg"
+    }
+  ],
+  "admin": [
+    {
+      "id": "sree",
+      "password": "welcome"
+    },
+    {
+      "id": "12",
+      "password": "hello"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <div class="card">
+        <div class="class-header">
+            <b>Add Questions</b>
+        </div>
+        <div class="card-body">
+            <form (ngSubmit)="checkanswer()">
+                <label>Question Number</label>
+                <input type="text" formControlName="q" class="form-control" required />
+            <br>
+            <label>Answers</label>
+            <br>
+            <input type="checkbox" id="opt1" formControlName="Option" class="form-control" required >
+            <span id="optt1"></span>
+            <br>
+            <br>
+            <input type="checkbox" id="opt2" formControlName="Option" class="form-control" required>
+            <span id="optt2"></span>
+            <br>
+            <br>
+            <input type="checkbox" id="opt3" formControlName="Option" class="form-control" required>
+            <span id="optt3"></span>
+       
+                <input type="submit" value="Submit" class="btn btn-success"/>
+                </form>
+                <script src="src\app\quiz\check.js"></script>
+                <script src="src\app\quiz\question.js"></script>
+
+          </div>
+        </div>
+    </div>
+    </div>
+</div>
